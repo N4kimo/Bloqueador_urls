@@ -6,15 +6,17 @@ hosts_path = "/etc/hosts"  # Para Windows, use "C:\\Windows\\System32\\drivers\\
 redirect = "127.0.0.1"
 
 # Coloque a url que deseja bloquear
-website_list = ["Instagram.com", "https://www.instagram.com/"]
+website_list = []
+url = input("Digite a URL desejada: ")
+website_list.append(url)
 
-# Horário de trabalho (exemplo: das 8h às 18h)
-start_hour = 9
-end_hour = 10
+# Horário que vai começar e terminar (exemplo: das 8h às 18h)
+start_hour = int(input("Digite a hora de início: "))
+end_hour = int(input("Digite a hora de término: "))
 
 while True:
     # Verifica se está dentro do horário de trabalho
-    if dt(dt.now().year, dt.now().month, dt.now().day, start_hour) < dt.now() < dt(dt.now().year, dt.now().month, dt.now().day, end_hour):
+    if dt.now().hour >= start_hour and dt.now().hour < end_hour:
         print("Horário de trabalho... Bloqueando sites")
         with open(hosts_path, 'r+') as file:
             content = file.read()
