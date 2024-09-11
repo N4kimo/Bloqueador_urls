@@ -8,6 +8,6 @@ caso dê algum problema para bloquear, é só colocar www.nomedosite.com
 
 
 
-### A permisão de root é para acessar a o diretório /etc/hosts e alterar a dns da url digitada
+#### A permisão de root é para acessar a o diretório /etc/hosts e alterar a dns da url digitada
 ![WhatsApp Image 2024-09-11 at 10 10 27 AM](https://github.com/user-attachments/assets/a5125143-3d0b-4518-bac4-40f0aeeb39cc)
 
