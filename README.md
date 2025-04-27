@@ -1,5 +1,5 @@
 # Bloqueador_urls
-#### Fiz esse bloqueador usando uma i.a no intuito de me ajudar no estudos, etc.
+#### Fiz esse bloqueador usando uma i.a no intuito de me ajudar nos estudos, etc.
 
 
 
